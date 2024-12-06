@@ -1,3 +1,19 @@
+.guarantee {
+    font-weight: bold;
+}
 @media screen and (min-width: 630px), print {
-    
+    .mobile {
+        display: none;
+    }
+    .tablet {
+        display: block;
+    }
+}
+@media screen and (min-width: 1015px), print {
+    .mobile, .tablet {
+        display: none;
+    }
+    .desktop {
+        display: block;
+    }
 }
