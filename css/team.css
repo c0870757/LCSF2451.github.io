@@ -7,3 +7,9 @@ aside {
     background-color: rgba(255, 144, 144, 0.527);
     border-radius: 15px 15px;
 }
+.team {
+    height: 400px;
+}
+.tall {
+    height: 700px;
+}
